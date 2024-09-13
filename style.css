@@ -78,7 +78,7 @@ h6 {
 .img-wrapper {
   z-index: 1;
   position: relative;
-  height: calc(100vh - 54px - 54px);
+  height: calc(100vh - 37px - 37px);
 }
 .img-wrapper img {
   width: 40vw;
