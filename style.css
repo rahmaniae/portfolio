@@ -156,6 +156,10 @@ section:nth-child(2n+1) {
 
 }
 
+.links div {
+    display: flex;
+}
+
 .links .icon {
     width: 24px;
     height: 24px;
@@ -177,6 +181,7 @@ section:nth-child(2n+1) {
     font-size: 18px;
     color: rgb(110, 110, 110);
 }
+
 .contact {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -191,6 +196,9 @@ section:nth-child(2n+1) {
     display: flex;
     align-items: center;
     margin-bottom: 32px;
+}
+.contact-info :nth-child(5) {
+    transform: translateY(-14px);
 }
 .contact-info p img {
     margin-right: 12px;
